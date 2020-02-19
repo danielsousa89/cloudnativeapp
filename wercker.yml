@@ -15,7 +15,7 @@ build:
           echo $DBURI
           echo "node version $(node -v) running"
           echo "npm version $(npm -v) running"
-
+#Add Push
 push:
   steps:
     - internal/docker-push:
